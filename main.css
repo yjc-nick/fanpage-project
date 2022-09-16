@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Yanone+Kaffeesatz&display=swap');
+
+.column {
+  flex:50%;
+  margin: 1%;
+  border-radius: 20px;
+  border: 2px solid lightblue;
+}
+
+.row {
+  display: flex;
+}
+
+.monster {
+  flex:auto;
+  margin: 1%;
+  padding: 2%;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+}
+
+.waepon {
+  flex:30%;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 20px;
+  border: 2px solid lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: Aqua;
+  margin:5%;
+  text-align: center;;
+}
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-image: url('./images/background1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.bar{
+  background-color: lightblue;
+}
+
+.nav {
+  margin:1%;
+  padding:1%;
+  border: 2px solid lightblue;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.nav:hover {
+  background-color: white;
+  color: violet;
+}
+
+iframe.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.size {
+  width: 200px;
+  height: 200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
